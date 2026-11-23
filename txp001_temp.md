@@ -53,8 +53,7 @@
 
 3. Although the experiments cover different haze densities, real remote sensing images may simultaneously suffer from haze, sensor noise, blur, and illumination variations. Additional experiments involving mixed degradation conditions would help establish the robustness and practical applicability of the proposed method.
 
-6. The manuscript emphasizes the importance of preserving roads, buildings, and small objects in remote sensing imagery, but the evaluation focuses primarily on image restoration metrics. Additional object detection or semantic segmentation experiments using restored images would help demonstrate whether the improvements translate into practical benefits for remote sensing applications.
-
+6. The manuscript emphasizes the importance of preserving roads, buildings, and small objects in remote sensing imagery, but the evaluation focuses primarily on image restoration metrics. Additional object detection or semantic segmentation experiments using restored images would help demonstrate whether the improvements translate into practical benefits for remote sensing applications.  
   
 F:\txp001\retudata002\r1-6 是三类下游任务的效果，我们将审稿人3点和6点 联合起来阐述，我们我们为了回应审稿人3的意见 给各个下游任务除了加上常规的合成雾 还加上了  
 Sequential composite degradation: 7×7 isotropic Gaussian blur followed by zero-mean additive white Gaussian noise with $\sigma_n=7$.  
