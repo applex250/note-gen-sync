@@ -58,4 +58,6 @@
 F:\txp001\retudata002\r1-6 是三类下游任务的效果，我们将审稿人3点和6点 联合起来阐述，我们我们为了回应审稿人3的意见 给各个下游任务除了加上常规的合成雾 还加上了  
 Sequential composite degradation: 7×7 isotropic Gaussian blur followed by zero-mean additive white Gaussian noise with $\sigma_n=7$.  
 Light-to-moderate composite degradation consisting of slight blur plus low-intensity noise.  
-When applied to hazy images, its relative effect is amplified due to the low contrast of hazy images, and it can be regarded as a light-to-moderate robust disturbance.
+When applied to hazy images, its relative effect is amplified due to the low contrast of hazy images, and it can be regarded as a light-to-moderate robust disturbance.  
+  
+
