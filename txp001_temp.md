@@ -49,5 +49,12 @@
 ---
 
 **统一要点**（回复信可直接写）：三任务协议一致——每任务将**该数据集训练划分**雾化后，4 个去雾法**同配方独立重训**（无测试泄漏），去雾结果喂给**冻结的**该领域 SOTA 判官（D2LS / YOLOv8x-obb / MoG2-Aerial），与雾输入、clean 输入三方对照；FAWNet 在三任务重雾档均第一，恢复率 90.1% / 97.0% / 83.4%。  
+审稿人意见：
+
+3. Although the experiments cover different haze densities, real remote sensing images may simultaneously suffer from haze, sensor noise, blur, and illumination variations. Additional experiments involving mixed degradation conditions would help establish the robustness and practical applicability of the proposed method.
+
+6. The manuscript emphasizes the importance of preserving roads, buildings, and small objects in remote sensing imagery, but the evaluation focuses primarily on image restoration metrics. Additional object detection or semantic segmentation experiments using restored images would help demonstrate whether the improvements translate into practical benefits for remote sensing applications.
+
   
-F:\txp001\retudata002\r1-6 是三类下游任务的效果  
+F:\txp001\retudata002\r1-6 是三类下游任务的效果，我们将审稿人3点和6点 联合起来阐述，我们我们为了回应审稿人3的意见 给分割任务的数据额外加上了<span data-notegen-color="#f9fafb" style="color: #f9fafb">各向异性高斯模糊核，给目标检测任务加上了低高度的雾气</span>  
+  
