@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-11-25T09:56:50.783Z",
-  "updatedAtMs": 1795600610783,
+  "updatedAt": "2026-11-25T09:57:16.655Z",
+  "updatedAtMs": 1795600636655,
   "deviceId": "device_1794734179700_migssgjo5",
   "provider": "github",
   "domains": [
@@ -14,8 +14,8 @@
   ],
   "domainStates": {
     "conversations": {
-      "updatedAt": "2026-11-25T09:56:50.783Z",
-      "updatedAtMs": 1795600610783,
+      "updatedAt": "2026-11-25T09:57:16.655Z",
+      "updatedAtMs": 1795600636655,
       "deviceId": "device_1794734179700_migssgjo5"
     }
   },
