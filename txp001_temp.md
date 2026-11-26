@@ -81,7 +81,7 @@ When applied to hazy images, its relative effect is amplified due to the low con
 
 
 算力是 24.5 GMAC（教师 264.1 的 **1/10.8**）。所以对外表述应该是"**0.85 M 参数 / 24.5 GMAC，比 DEA-Net 小 2.5 倍、快 3.2 倍**"  
-我们在实际的  
+我们在实际的5090上测试能够达到100fps左右的效果  
 
 
 ## Main Results (PSNR-Y (dB) / SSIM-Y)
