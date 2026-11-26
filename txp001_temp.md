@@ -81,7 +81,17 @@ When applied to hazy images, its relative effect is amplified due to the low con
 
 
 算力是 24.5 GMAC（教师 264.1 的 **1/10.8**）。所以对外表述应该是"**0.85 M 参数 / 24.5 GMAC，比 DEA-Net 小 2.5 倍、快 3.2 倍**"  
-我们在实际的
+我们在实际的  
+
+
+## Main Results (PSNR-Y (dB) / SSIM-Y)
+
+
+| Dataset   | SateHaze1K-thin                                                                 | SateHaze1K-moderate                                                             | SateHaze1K-thick                                                                | RSID                                                                            | RICE1          | RICE2          | CUHK-CR2                                                                        |
+| --------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------- | -------------- | ------------------------------------------------------------------------------- |
+| FAWNet    | 28.22 / 0.9789                                                                  | 31.53 / 0.9812                                                                  | 25.31 / 0.9498                                                                  | 28.71 / 0.9759                                                                  | 38.36 / 0.9918 | 38.10 / 0.9291 | 26.35 / 0.7549                                                                  |
+| FAWNet-S3 | <span data-notegen-color="#f9fafb" style="color: #f9fafb">26.75 / 0.9716</span> | <span data-notegen-color="#f9fafb" style="color: #f9fafb">30.03 / 0.9774</span> | <span data-notegen-color="#f9fafb" style="color: #f9fafb">24.16 / 0.9410</span> | <span data-notegen-color="#f9fafb" style="color: #f9fafb">27.34 / 0.9694</span> | 38.73 / 0.9913 | 38.39 / 0.9191 | <span data-notegen-color="#f9fafb" style="color: #f9fafb">25.81 / 0.7099</span> |
+
 
 &nbsp;
 
