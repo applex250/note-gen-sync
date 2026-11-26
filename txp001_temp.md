@@ -62,4 +62,32 @@ Light-to-moderate composite degradation consisting of slight blur plus low-inten
 When applied to hazy images, its relative effect is amplified due to the low contrast of hazy images, and it can be regarded as a light-to-moderate robust disturbance.  
 模糊是在生成雾气的非均匀部分，  
   
+  
+  
 
+
+[README.MD](http://README.MD)
+
+## **对比位置（这点很关键）**
+
+
+|             | **参数**     | **相对 S3** |
+| ---------------- | ---------- | --------- |
+| **FAWNet-S3轻量版** | **0.85 M** | 1         |
+| EMPF-Net         | 0.30 M     | 0.35×     |
+| DehazeFormer-s   | 1.28 M     | 1.5×      |
+| **DEA-Net**      | **2.10 M** | **2.5×**  |
+| FAWNet 原模型       | 9.28 M     | 10.9×     |
+
+
+算力是 24.5 GMAC（教师 264.1 的 **1/10.8**）。所以对外表述应该是"**0.85 M 参数 / 24.5 GMAC，比 DEA-Net 小 2.5 倍、快 3.2 倍**"  
+我们在实际的
+
+&nbsp;
+
+我们为实现轻量级边缘设备的部署，针对我们原模型做了极致的轻量级优化，在7个数据集下 能达到仅次于fawnet的效果 在整个图中排第二梯队  
+  
+同时我们对我们的fawnet模型做了多项下游实验都达到了不错的效果  
+  
+本论文的模型代码和轻量化部署代码会在论文录取后上传开源  
+  
